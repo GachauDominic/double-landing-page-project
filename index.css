@@ -100,11 +100,8 @@ body, html {
   height: 100%;
 }
 
-.left {
-  background-color: black; 
-}
 
-/* Styles for mobile devices */
+/* Styles for mobile devices 
 @media (max-width: 500px) {
   .container {
     flex-direction: column;
@@ -120,5 +117,6 @@ body, html {
     font-size: 14px;
   }
 }
-
+
+*/
 
