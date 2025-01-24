@@ -104,6 +104,23 @@ body, html {
   background-color: black; 
 }
 
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .split {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+
 .right {
   background-color: lightblue; 
 }
